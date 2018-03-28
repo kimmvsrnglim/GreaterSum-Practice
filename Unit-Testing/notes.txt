@@ -1,0 +1,20 @@
+Unit testing - 
+flexible, maintainable, reusable code
+
+What is unit testing?
+low level, focusing on small part of software system
+
+How to write unit tests?
+Arrange - a set up to mocks/data to run testing
+Act - invoke code 
+
+Common mistakes - 
+    Not writing tests.
+    Test passes, but not testing the correct feature 
+        - try to make it fail to test this
+        - test for boundary and edge cases (sometimes)
+    Testing irrelevant things
+    Testing multipe things in assertions 
+
+Always ask 'why am I writing this test?' to keep test simplified
+Ask about human errors that would happen as well

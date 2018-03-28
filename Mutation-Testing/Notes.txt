@@ -1,0 +1,25 @@
+Why tests? 
+    Verify functionality 
+    Defend against unexpected change 
+
+Code Coverage 
+    Shows percentage of lines that hit while test runs
+    Doesn't say if it doing what it should do 
+    Not covered % by tests are not working - this is where it is helpful
+
+Add functionality to legacy code 
+    
+If test fails = mutant 
+If test doesn't fait = no mutants 
+
+Equivalant Mutant - these exists 
+
+Mutation testing JS framework = Stryker 
+If you want to kill all mutants = use Stryker 
+
+Want to run code a lot during refactoring
+Mutation testing helps test quality in test suite (when things change in the code - how does it test?)
+
+Kill mutants with more tests
+
+TDD builds quality tests that cover you. - Robert Martin (Uncle Bob) 
